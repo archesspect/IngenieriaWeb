@@ -1,0 +1,19 @@
+
+@mixin transformar ($tam,$ancho){
+    @if $ancho>300 {
+            font-size: $tam;   
+    }
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#galeria p{
+
+    @include transformar(34,400);
+
+}

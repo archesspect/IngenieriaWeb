@@ -1,0 +1,9 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #galeria p {
+    font-size: 34;
+  }
