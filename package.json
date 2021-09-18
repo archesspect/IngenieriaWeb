@@ -1,0 +1,28 @@
+{
+    "name": "IngenieriaWeb",
+    "version": "1.0.0",
+    "description": "tarea 2 de Ing de Web",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build-css": "node-sass --recursive -o css scss"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ClaudioPastenes/Tarea2.git"
+    },
+    "author": "Claudio Pastenes",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ClaudioPastenes/Tarea2/issues"
+    },
+    "homepage": "https://github.com/ClaudioPastenes/Tarea2#readme",
+    "dependencies": {
+      "@popperjs/core": "^2.10.1",
+      "bootstrap-icons": "^1.5.0",
+      "jquery": "^3.6.0",
+      "node-sass": "^6.0.1",
+      "sass": "^1.41.1"
+    }
+  }
+  
